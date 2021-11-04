@@ -9,8 +9,8 @@ class SpicesController < ApplicationController
   end
 
   def show
-    spice = set_spice
-    render json: spice
+    # spice = set_spice
+    render json: @spice
   end
 
   # POST /spices
